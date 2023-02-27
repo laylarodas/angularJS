@@ -1,2 +1,1 @@
-# angularJS
-Desarrollo de páginas web con Angular JS
+# Angular JS
