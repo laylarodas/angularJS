@@ -20,4 +20,9 @@ export class ListaDestinosComponent implements OnInit {
     return false;
   }
 
+  chosenOne(d: destinoViaje){
+    this.destinations.forEach(function(x){x.setSelected(false);});
+    d.setSelected(true);
+  }
+
 }
